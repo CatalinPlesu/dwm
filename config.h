@@ -33,12 +33,13 @@ static const char col_white0[]="#fbf1c7";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_white, col_black, col_blue},
-	[SchemeSel]  = { col_black, col_yellow0,  col_yellow0  },
+	[SchemeNorm] = { col_white, col_black, col_green},
+	[SchemeSel]  = { col_black, col_yellow,  col_yellow  },
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+/* static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" }; */
+static const char *tags[] = { "一", "二", "三", "四", "五", "六", "七", "八", "九" };
 
 static const Rule rules[] = {
 	/* xprop(1):
